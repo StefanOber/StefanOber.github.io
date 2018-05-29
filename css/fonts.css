@@ -1,0 +1,29 @@
+
+@font-face {
+  font-family:HelveticaRoman;
+    src: url('../fonts/HelveticaNeueLTPro-Roman.eot');
+    src: url('../fonts/HelveticaNeueLTPro-Roman.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueLTPro-Roman.woff') format('woff');
+    font-style: normal;
+}
+@font-face {
+  font-family:HelveticaLight;
+    src: url('../fonts/HelveticaNeueLTPro-Lt.eot');
+    src: url('../fonts/HelveticaNeueLTPro-Lt.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueLTPro-Lt.woff') format('woff');
+    font-style: normal;
+}
+@font-face {
+  font-family:HelveticaMedium;
+    src: url('../fonts/HelveticaNeueLTPro-Md.eot');
+    src: url('../fonts/HelveticaNeueLTPro-Md.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueLTPro-Md.woff') format('woff');
+    font-style: normal;
+}
+@font-face {
+  font-family:HelveticaBold;
+    src: url('../fonts/HelveticaNeueLTPro-Bd.eot');
+    src: url('../fonts/HelveticaNeueLTPro-Bd.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueLTPro-Bd.woff') format('woff');
+    font-style: normal;
+}

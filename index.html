@@ -1,26 +1,22 @@
-<!doctype HTML>
+<!DOCTYPE html>
 <html>
-<!--css-->
-<link rel='stylesheet' href='css/styles.css' />
-<link rel='stylesheet' href='css/fonts.css' />
 
-<script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
-<script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v4.1.2/dist/aframe-extras.min.js"></script>
-<script src="aframe-ar.js">
-</script>
+<head>
+    <title>IFrame Test</title>
+</head>
 
-<body style='margin : 0px; overflow: hidden;'>
-    <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'>
-        <a-marker preset='custom' url='spiegel-marker.patt'>
-            <a-gltf-model scale="0.005 0.005 0.005" position="0 1 0" animation-mixer src="models/mech_drone/scene.gltf"></a-gltf-model>
-        </a-marker>
-        <a-light type="ambient" color="#fff"></a-light>
-        <a-light type="ambient" color="#fff"></a-light>
-        <a-entity light="type: directional; color: #FFF; intensity: 1" position="-0.5 2 1"></a-entity>
-        <a-entity light="type: directional; color: #FFF; intensity: 1" position="1 1 -1"></a-entity>
-        <a-entity camera></a-entity>
-    </a-scene>
-    <a id='backlink' href='start.html'>Zurück</a>
+<body>
+
+    <!--
+        https://siemens.visoric.com/ET200clean_CAx
+        https://siemens.visoric.com/DALI
+        https://siemens.visoric.com/FDE
+        https://siemens.visoric.com/IO_Link
+    -->
+
+    <iframe src="https://siemens.visoric.com/ET200clean_CAx" width="1600" height="900px">
+        <p>Your browser does not support iframes.</p>
+    </iframe>
 </body>
 
 </html>
